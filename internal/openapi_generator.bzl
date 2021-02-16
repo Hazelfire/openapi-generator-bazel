@@ -2,7 +2,7 @@
 
 load("@bazel_tools//tools/build_defs/repo:jvm.bzl", "jvm_maven_import_external")
 
-def openapi_tools_generator_bazel_repositories(openapi_generator_cli_version = "5.0.0", sha256 = "839fade01e54ce1eecf012b8c33adb1413cff0cf2e76e23bc8d7673f09626f8e", prefix = "openapi_tools_generator_bazel"):
+def openapi_tools_generator_bazel_repositories(openapi_generator_cli_version = "5.0.0", sha256 = "c7baf54aa193b16f17939b4af18a7d50ddf7f278937240e9c6e64751639d84c8", prefix = "openapi_tools_generator_bazel"):
     jvm_maven_import_external(
         name = "openapi_tools_generator_bazel_cli",
         artifact_sha256 = sha256,
